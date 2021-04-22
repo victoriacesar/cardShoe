@@ -27,8 +27,8 @@ The following technologies were used in this project:
  <br>
  <sub><b>@victoriacesar</b></sub>
 </a>
-<a>
+<a href="mailto:victoriacesaras@gmail.com">
   <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white&link=mailto:victoriacesaras@gmail.com" />
-</a><a>
+</a><a href="https://github.com/victoriacesar">
   <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white&link=https://github.com/victoriacesar"/>
 <a>
