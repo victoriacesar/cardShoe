@@ -11,6 +11,7 @@
 
 <p>This is a css's challenge made by <a href="https://www.instagram.com/papodedev/">@papodedev</a> on instagram's and implemented by me @victoriacesar.</p>
 <p>For this project, I included the like button, the animation on the shoe when changing the colors, and the user can change the size of the shoe anytime.</p>
+<a href="https://card-shoe.vercel.app/">Click here to see the deploy</a>
 
 ### Technologies
 
