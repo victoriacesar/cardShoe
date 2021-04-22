@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Desafio CSS 1</title>
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <img shoe-img class="shoes" src="images/tenis1.png" alt="">
+      <div class="shadow"></div>
+      <div class="card-content">
+        <div class="shoes-box">
+          <div class="shoes-text">
+            <p class="subtitle">Nike</p>
+            <h3 class="title">Epic React Flyknit 2</h3>
+          </div>
+          <div class="shoes-like">
+            <button class="like-btn"><i class="fas fa-heart"></i></button>
+          </div>
+        </div>
+        <h4 class="price">
+          <span>R$</span>359,00
+        </h4>
+        <div class="actions-container">
+          <div class="shoes-options">
+            <p>Cores:</p>
+            <div class="color-options">
+              <label class="custom-radio-btn">
+                <input green type="radio" name="color" checked>
+                <span class="checkmark"></span>
+              </label>
+              <label class="custom-radio-btn">
+                <input red type="radio" name="color">
+                <span class="checkmark"></span>
+              </label>
+              <label class="custom-radio-btn">
+                <input blue type="radio" name="color">
+                <span class="checkmark"></span>
+              </label>
+            </div>
+            <p>Tamanhos:</p>
+            <div class="size-options">
+              <label class="custom-check-btn">
+                <input type="radio" name="size">
+                <span class="checkmark-check">36</span>
+              </label>
+              <label class="custom-check-btn">
+                <input type="radio" name="size">
+                <span class="checkmark-check">38</span>
+              </label>
+              <label class="custom-check-btn">
+                <input type="radio" name="size">
+                <span class="checkmark-check">40</span>
+              </label>
+              <label class="custom-check-btn">
+                <input type="radio" name="size">
+                <span class="checkmark-check">42</span>
+              </label>
+            </div>
+          </div>
+          <div class="cart">
+            <button>
+              <svg width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M10.59 0.294937L6 4.87494L1.41 0.294937L0 1.70494L6 7.70494L12 1.70494L10.59 0.294937Z" fill="white" fill-opacity="0.2"/>
+              </svg>
+              <svg width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M10.59 0.294937L6 4.87494L1.41 0.294937L0 1.70494L6 7.70494L12 1.70494L10.59 0.294937Z" fill="white" fill-opacity="0.4"/>
+              </svg>
+              <svg width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M10.59 0.294937L6 4.87494L1.41 0.294937L0 1.70494L6 7.70494L12 1.70494L10.59 0.294937Z" fill="white" fill-opacity="0.6"/>
+              </svg>
+              <img src="images\cart.svg" alt="cart">
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
