@@ -22,10 +22,5 @@ inputBlue.addEventListener('click', e => {
   changeShoeImg(inputBlue, 'images/tenis3.png')
 })
 
-likeButton.addEventListener('click', e => {
-  if(likeButton.classList.contains('active')){
-    likeButton.classList.remove('active')
-  } else{
-    likeButton.classList.add('active')
-  }
-})
+likeButton.addEventListener('click', () => {
+  likeButton.classList.toggle('active')})
